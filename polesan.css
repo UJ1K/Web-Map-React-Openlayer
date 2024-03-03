@@ -1,0 +1,143 @@
+/* ATAS */
+section {
+    background-color: hwb(0 0% 0% / 0.568);
+    align-content: center;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;}
+
+.search-container {
+    margin: 20px;
+    width: 50%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: none;
+    height: 15vh;
+}
+/* 
+.namawebsite {} */
+    
+
+
+
+
+
+/* Body */
+
+body {
+    font-family: 'georgia';
+    padding: 0%;
+    margin: 0%;
+    background-color:none;
+    background-image:url(https://media.tate.org.uk/art/images/work/N/N05/N05660_10.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: grayscale(50%);
+
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 1000;
+    font-size: 100px;
+    font-family: 'Times New Roman';
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+h1:hover { 
+    
+
+}
+
+
+p {
+    color: #00ad3a solid bold;
+    text-align: justify;
+    margin: 10px;
+    backdrop-filter: blur(20px);
+    margin: 0;
+
+}
+
+.paragraph-wrapper {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%; /* Atur lebar sesuai kebutuhan Anda */
+    margin: 0 auto; /* Agar kotak berada di tengah */
+}
+
+.paragraph-wrapper:hover{
+    backdrop-filter: blur(50px);
+}
+
+img {
+    max-width: 100%; /* Gambar akan menyesuaikan lebar kotak */
+    height: auto; /* Untuk menjaga aspek rasio gambar */
+    display: block;
+    margin: 0 auto; /* Agar gambar berada di tengah kotak */
+}
+.a {
+    animation-duration: 3s ;
+    animation-name: slidein;
+    text-align: justify;
+  }
+
+    @keyframes slidein {from  {
+        margin-bottom: 100%;
+        width: 300%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }}
+
+
+
+a {
+    color: #ffffff;
+    font-size: larger;
+    font-display: none;
+    justify-content: end;
+    font-family: monospace;
+}
+
+a:hover {
+    color: #461111;
+}
+
+
+  .box { flex-direction: column-reverse;}
+
+
+
+/* Footer */
+
+footer { 
+    font-family: georgia;
+    text-align: end;
+justify-content: flex-end;
+background-color: hwb(0 0% 100% / 0.788);
+padding: 2%;
+margin-top: 10%;
+
+}
+  
