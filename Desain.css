@@ -80,7 +80,7 @@ p {
 .paragraph-wrapper {
     border: 1px solid;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 9px;
     width: 70%; /* Atur lebar sesuai kebutuhan Anda */
     margin: 0 auto; /* Agar kotak berada di tengah */
 }
