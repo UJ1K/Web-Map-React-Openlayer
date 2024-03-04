@@ -1,6 +1,6 @@
 /* ATAS */
 section {
-    background-color: hwb(0 0% 0% / 0.568);
+    background-color: hwb(0 0% 100% / 0.568);
     align-content: center;
     
 }
@@ -35,7 +35,7 @@ button[type="submit"] {
 
 
 /* Body */
-
+br { margin-bottom: 2%;}
 body {
     font-family: 'georgia';
     padding: 0%;
@@ -49,14 +49,12 @@ body {
 
 }
 
-br { margin-bottom: 2%;}
-
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: 1000;
-    font-size: 100px;
+    font-size: 75px;
     font-family: 'Times New Roman';
     animation-duration: 2s;
     animation-name: slidein;
@@ -71,7 +69,8 @@ h1:hover {
 
 
 p {
-    color: #00ad3a solid bold;
+    color: solid bold;
+    text-decoration: bold;
     text-align: justify;
     margin: 10px;
     backdrop-filter: blur(20px);
@@ -82,8 +81,8 @@ p {
 .paragraph-wrapper {
     border: 1px solid;
     padding: 10px;
-    border-radius: 9px;
-    width: 70%; /* Atur lebar sesuai kebutuhan Anda */
+    border-radius: 5px;
+    width: 65%; /* Atur lebar sesuai kebutuhan Anda */
     margin: 0 auto; /* Agar kotak berada di tengah */
 }
 
